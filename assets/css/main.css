@@ -3317,10 +3317,10 @@ input, select, textarea {
 					border-radius: 0.5rem;
 					content: '';
 					display: block;
-					height: 0.5rem;
+					height: 0.6rem;
 					position: absolute;
 					top: 0.75rem;
-					width: 0.5rem;
+					width: 0.6rem;
 				}
 
 			#wrapper > section > header h1 {
@@ -3361,7 +3361,7 @@ input, select, textarea {
 					}
 
 				#wrapper > section.intro > .content {
-					height: 100vh;
+					height: 60vh;
 					max-width: none;
 				}
 
@@ -3375,9 +3375,9 @@ input, select, textarea {
 				bottom: -1.5rem;
 				content: '';
 				display: block;
-				height: 0.5rem;
+				height: 0.6rem;
 				position: absolute;
-				width: 0.5rem;
+				width: 0.6rem;
 				z-index: 1;
 			}
 
@@ -3708,7 +3708,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-
+			
 			#wrapper section {
 				margin: 3rem 0 0 0;
 			}
@@ -3719,6 +3719,11 @@ input, select, textarea {
 
 				#wrapper > section > header {
 					padding: 3rem 2rem;
+				}
+
+				#wrapper > section.intro > .content {
+					height: 30vh;
+					max-width: none;
 				}
 
 				#wrapper > section > .content {
