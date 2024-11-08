@@ -933,7 +933,7 @@ table tfoot td {
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 .about {
@@ -969,16 +969,17 @@ table tfoot td {
 }
 
 .about .author-name {
-  font-family: 'PT Serif', serif;
+  font-family: 'Outfit', sans-serif;
   margin: 0 0 10px;
   position: relative;
   padding-bottom: 15px;
   font-size: 16px;
   text-transform: uppercase;
-  color: #333030;
+  color: #f0f0f0;
   font-weight: 700;
 }
 
+/*
 .about .author-name::after {
   content: "";
   position: absolute;
@@ -994,6 +995,7 @@ table tfoot td {
           border-radius: 100%;
   background-color: #515151;
 }
+  */
 
 .about p {
   font-size: 16px;
@@ -1162,7 +1164,7 @@ footer .copyright {
 }
 
 .post .post-content .post-title a {
-  font-family: 'PT Serif', serif;
+  font-family: 'Outfit', sans-serif;
   text-decoration: none;
   color: #263959;
 }
