@@ -948,7 +948,7 @@ table tfoot td {
   -webkit-border-radius: 100%;
           border-radius: 100%;
   overflow: hidden;
-  background-color: #333030;
+  background-color: #000000;
 }
 
 .about img {
@@ -973,8 +973,8 @@ table tfoot td {
   margin: 0 0 10px;
   position: relative;
   padding-bottom: 15px;
-  font-size: 16px;
-  text-transform: uppercase;
+  font-size: 26px;
+  /*text-transform: uppercase;*/
   color: #f0f0f0;
   font-weight: 700;
 }
@@ -998,7 +998,7 @@ table tfoot td {
   */
 
 .about p {
-  font-size: 16px;
+  font-size: 14px;
   margin: 0 0 10px;
 }
 
@@ -1025,7 +1025,7 @@ table tfoot td {
 
 .contact .contact-title {
   position: relative;
-  color: #333030;
+  color: #f0f0f0;
   font-weight: 400;
   font-size: 12px;
   margin: 0 0 5px;
@@ -1080,7 +1080,7 @@ table tfoot td {
 }
 
 .contact ul li a {
-  color: #515151;
+  color: #f0f0f0;
   display: block;
   padding: 5px;
   font-size: 18px;
@@ -1090,7 +1090,7 @@ table tfoot td {
 }
 
 .contact ul li a:hover {
-  color: #333030;
+  color: #f0f0f0;
   -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
           transform: scale(1.2);
