@@ -40,7 +40,7 @@
     text-transform: uppercase;
     color: $dark;
     font-weight: 700;
-    &::after {
+    /*&::after {
       content: "";
       position: absolute;
       left: 50%;
@@ -52,6 +52,7 @@
       border-radius: 100%;
       background-color: $body-color;
     }
+    */
   }
   p {
     font-size: 14px;
