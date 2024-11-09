@@ -1169,7 +1169,7 @@ footer .copyright {
 .post .post-content .post-title a {
   font-family: "Inter Tight", Helvetica Neue, Helvetica, Arial, sans-serif;
   text-decoration: none;
-  color: #263959;
+  color: #f0f0f0;
 }
 
 .post .post-content p {
@@ -1282,7 +1282,7 @@ a.newer-posts:hover {
   border: 1px solid #ecf0f1;
   padding: 5px 10px;
   margin-left: 5px;
-  color: #263959;
+  color: #f0f0f0;
   font-size: 12px;
   -webkit-transition: background-color .3s;
   -o-transition: background-color .3s;
@@ -1302,9 +1302,9 @@ a.newer-posts:hover {
   font-size: 10px;
   padding: 5px 10px;
   margin-left: 5px;
-  color: #263959;
+  color: #f0f0f0;
   text-transform: uppercase;
-  border: 1px solid #263959;
+  border: 1px solid #f0f0f0;
 }
 
 .page-footer .page-tag a:hover {
@@ -1322,11 +1322,11 @@ a.newer-posts:hover {
   font-size: 30px;
   text-align: center;
   line-height: 1.3;
-  color: #263959;
+  color: #f0f0f0;
 }
 
 .blog-tags h2 {
-  color: #263959;
+  color: #f0f0f0;
   margin: 10px 0;
 }
 
@@ -1343,7 +1343,7 @@ a.newer-posts:hover {
 
 .tags li a {
   text-decoration: none;
-  color: #263959;
+  color: #f0f0f0;
   display: inline-block;
   padding: 5px 10px;
   border: 1px solid #ecf0f1;
@@ -1359,7 +1359,7 @@ a.newer-posts:hover {
 
 .tag-list span a {
   text-decoration: none;
-  color: #263959;
+  color: #f0f0f0;
 }
 
 .tag-list span a:hover {
