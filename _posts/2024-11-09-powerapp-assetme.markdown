@@ -3,7 +3,7 @@ layout: post
 title: Asset Management PowerApp
 date: 2024-11-08 13:32:20 +0300
 description: desc. # Add post description (optional)
-img: assetme-1.png # Add image post (optional)
+img: assetme-thumb.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [PowerApps, PowerAutomate, SharePoint]
 ---
