@@ -39,7 +39,9 @@
     font-size: 20px;
     text-transform: none;
     color: $dark;
-    font-weight: 700;
+    /*font-weight: 700;*/
+    font-style: italic;
+    font-weight: normal;
     /*&::after {
       content: "";
       position: absolute;

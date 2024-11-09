@@ -976,7 +976,10 @@ table tfoot td {
   font-size: 26px;
   text-transform: none;
   color: #f0f0f0;
-  font-weight: 700;
+  /*font-weight: 700;*/
+  font-style: italic;
+  font-weight: normal;
+
 }
 
 /*
