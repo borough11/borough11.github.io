@@ -3,7 +3,7 @@ layout: post
 title: Asset Management PowerApp
 date: 2024-11-08 13:32:20 +0300
 description: desc. # Add post description (optional)
-img: assetme-1.jpg # Add image post (optional)
+img: assetme-1.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [PowerApps, PowerAutomate, SharePoint]
 ---
@@ -12,7 +12,7 @@ Providing multiple teams the ability to manage their assets; keep track of asset
 ## Heading
 Words
 
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-2.jpg)
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-2.png)
 
 Words2
 
@@ -29,10 +29,10 @@ Words 4
 
 ## Screenshots
 
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-3.jpg)
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-4.jpg)
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-5.jpg)
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-6.jpg)
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-7.jpg)
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-8.jpg)
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-9.jpg)
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-3.png)
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-4.png)
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-5.png)
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-6.png)
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-7.png)
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-8.png)
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-9.png)
