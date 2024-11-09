@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Asset Management PowerApp
-date: 2025-11-08 13:32:20 +0300
+date: 2024-11-08 13:32:20 +0300
 description: desc. # Add post description (optional)
 img: assetme-1.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
