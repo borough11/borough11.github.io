@@ -7,7 +7,7 @@ url: "https://borough11.co.nz" # the base hostname & protocol for your site, e.g
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
-author: Steve Geall. # add your name
+author: steveGeall # add your name
 author-img: steve-geall.jpg # add your photo
 about-author: Creating technical vision and developing solutions. # add description
 social-twitter: # add your Twitter handle
