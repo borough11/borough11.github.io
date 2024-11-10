@@ -29,7 +29,7 @@ Words 4
 
 ## Screenshots
 
-[![asset mamangement image]({{site.baseurl}}/assets/img/powerapp-assetmanagement-1.png)]({{site.baseurl}}/assets/img/powerapp-assetmanagement-1.png){: width="305" padding="10" }
+[![asset mamangement image]({{site.baseurl}}/assets/img/powerapp-assetmanagement-1.png){: width="305" padding="10" }]({{site.baseurl}}/assets/img/powerapp-assetmanagement-1.png)
 [![asset mamangement image]({{site.baseurl}}/assets/img/powerapp-assetmanagement-2.png)]({{site.baseurl}}/assets/img/powerapp-assetmanagement-2.png){: width="305" padding="10" }
 [![asset mamangement image]({{site.baseurl}}/assets/img/powerapp-assetmanagement-3.png)]({{site.baseurl}}/assets/img/powerapp-assetmanagement-3.png){: width="305" padding="10" }
 [![asset mamangement image]({{site.baseurl}}/assets/img/powerapp-assetmanagement-4.png)]({{site.baseurl}}/assets/img/powerapp-assetmanagement-4.png){: width="305" padding="10" }
