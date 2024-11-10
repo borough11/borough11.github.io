@@ -12,7 +12,7 @@ Providing multiple teams the ability to manage their assets; keep track of asset
 ## Heading
 Words
 
-![Asset Management PowerApp]({{site.baseurl}}/assets/img/powerapp-assetmanagement-2.png){: width="800" padding="10" }
+![Asset Management PowerApp]({{site.baseurl}}/assets/img/powerapp-assetmanagement-2.png){: padding="10px" }
 
 Words2
 
