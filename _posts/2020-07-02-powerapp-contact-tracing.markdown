@@ -12,7 +12,7 @@ Contact Tracing for Covid19
 ## Heading
 Words
 
-![video link](https://youtu.be/qT7q4Y2pi3I){: width="800" padding="10" }
+[video link](https://youtu.be/qT7q4Y2pi3I){: width="800" padding="10" }
 
 Words2
 
