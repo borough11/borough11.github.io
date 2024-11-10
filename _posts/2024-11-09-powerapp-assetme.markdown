@@ -29,14 +29,14 @@ Words 4
 
 ## Screenshots
 
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-1.png){: width="250" }
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-2.png){: width="250" }
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-3.png){: width="250" }
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-1.png){: width="300" }
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-2.png){: width="300" }
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-3.png){: width="300" }
 
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-4.png){: width="250" }
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-5.png){: width="250" }
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-6.png){: width="250" }
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-4.png){: width="300" }
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-5.png){: width="300" }
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-6.png){: width="300" }
 
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-7.png){: width="250" }
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-8.png){: width="250" }
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-7.png){: width="300" }
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-8.png){: width="300" }
 
