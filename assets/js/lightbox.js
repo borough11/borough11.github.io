@@ -1,10 +1,12 @@
 function is_youtubelink(url) {
   var p =
     /^(?:https?:\/\/)?(?:www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$/;
+    console.write("found as youtube link for: " + url);
   return url.match(p) ? RegExp.$1 : false;
 }
 function is_imagelink(url) {
   var p = /([a-z\-_0-9\/\:\.]*\.(jpg|jpeg|png|gif|webp))/i;
+  console.write("found as image for: " + url);
   return url.match(p) ? true : false;
 }
 function setGallery(el) {
@@ -65,7 +67,7 @@ function apply_lightbox_to_img_tag() {
       var alt = wrapper.getAttribute("alt");
       var filename = href.split("/").pop();
       var name = filename.split(".")[0];
-      wrapper.setAttribute("title", name);
+      wrapper.setAttribute("title", alt);
       wrapper.setAttribute("alt", alt);
     } else {
       return;
