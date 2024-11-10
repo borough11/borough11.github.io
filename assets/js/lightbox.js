@@ -75,14 +75,14 @@ function setGallery(el) {
 		document.getElementById('prev').addEventListener("click", function() {
 			gallery_elements[prevkey].click();
 		});
-        document.addEventListener("keydown", function(event) {
+        window.addEventListener("keydown", function(event) {
             switch (event.key) {
                 case "ArrowLeft":
-                    console.log("left arrow pressed");
+                    console.log("wleft arrow pressed");
                     gallery_elements[prevkey].click();
                     break;
                 case "ArrowRight":
-                    console.log("right arrow pressed");
+                    console.log("wright arrow pressed");
                     gallery_elements[nextkey].click();
                     break;
             }
