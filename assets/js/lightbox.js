@@ -118,7 +118,7 @@ function apply_lightbox() {
         '" alt="' +
         this.getAttribute("title") +
         '" />' +
-        '<div style="margin-top:30px; max-width: fit-content; margin-left: auto; margin-right: auto;">' + this.getAttribute("title") + '</div>' +
+        '<div style="margin-top:30px; max-width: fit-content; margin-left: auto; margin-right: auto;">' + this.getAttribute("alt") + '</div>' +
         '</div><span>' +
         + this.getAttribute("title") +
         "</span>";
