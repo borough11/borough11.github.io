@@ -116,7 +116,7 @@ function apply_lightbox() {
         '" ><img src="' +
         this.getAttribute("href") +
         '" alt="' +
-        this.getAttribute("title") +
+        this.getAttribute("alt") +
         '" />' +
         '<div style="margin-top:30px; max-width: fit-content; margin-left: auto; margin-right: auto;">' + this.getAttribute("alt") + '</div>' +
         '</div><span>' +
