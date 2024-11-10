@@ -75,6 +75,7 @@ function setGallery(el) {
 		document.getElementById('prev').addEventListener("click", function() {
 			gallery_elements[prevkey].click();
 		});
+        /*
         window.addEventListener("keydown", function(event) {
             switch (event.key) {
                 case "ArrowLeft":
@@ -88,6 +89,7 @@ function setGallery(el) {
             }
 			
 		});
+        */
 	}
 }
 
