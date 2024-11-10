@@ -16,7 +16,7 @@ Words
 
 Words2
 
->Pull quote.
+>Pull quote
 
 Words 3
 
