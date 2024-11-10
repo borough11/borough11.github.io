@@ -79,6 +79,7 @@ function setGallery(el) {
             switch (event.key) {
                 case "ArrowLeft":
                     console.log("left arrow pressed");
+                    gallery_elements[prevkey].click();
                     break;
                 case "ArrowRight":
                     console.log("right arrow pressed");
