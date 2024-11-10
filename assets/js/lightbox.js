@@ -75,7 +75,7 @@ function setGallery(el) {
 		document.getElementById('prev').addEventListener("click", function() {
 			gallery_elements[prevkey].click();
 		});
-        document.getElementById('next').addEventListener("keydown", function(event) {
+        document.addEventListener("keydown", function(event) {
             switch (event.key) {
                 case "ArrowLeft":
                     console.log("left arrow pressed");
