@@ -29,7 +29,7 @@ Words 4
 
 ## Screenshots
 
-<img widht=80px; src='/assets/img/assetme-3.png'>
+<img width=80px; src='/assets/img/assetme-3.png'>
 
 ![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-3.png)
 ![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-4.png)
