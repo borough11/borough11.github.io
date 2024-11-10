@@ -29,7 +29,15 @@ Words 4
 
 ## Screenshots
 
-<img width=80px; src='/assets/img/assetme-3.png'>
+<img width=200px; src='/assets/img/assetme-3.png'>
+
+<img width=200px; src='/assets/img/assetme-4.png'>
+
+<img width=200px; src='/assets/img/assetme-5.png'>
+
+<img width=200px; src='/assets/img/assetme-6.png'>
+
+<img width=200px; src='/assets/img/assetme-7.png'>
 
 ![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-3.png)
 ![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-4.png)
@@ -37,4 +45,4 @@ Words 4
 ![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-6.png)
 ![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-7.png)
 ![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-8.png)
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-9.png)
+
