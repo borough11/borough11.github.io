@@ -39,10 +39,10 @@ Words 4
 
 <img width=200px; src='/assets/img/assetme-7.png'>
 
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-3.png)
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-4.png)
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-5.png)
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-6.png)
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-7.png)
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-8.png)
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-3.png){: width="250" }
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-4.png){: width="250" }
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-5.png){: width="250" }
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-6.png){: width="250" }
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-7.png){: width="250" }
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/assetme-8.png){: width="250" }
 
