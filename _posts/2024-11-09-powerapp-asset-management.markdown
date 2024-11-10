@@ -29,12 +29,12 @@ Words 4
 
 ## Screenshots
 
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/powerapp-assetmanagement-1.png){: width="300" padding="10" }
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/powerapp-assetmanagement-2.png){: width="300" padding="10" }
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/powerapp-assetmanagement-3.png){: width="300" padding="10" }
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/powerapp-assetmanagement-4.png){: width="300" padding="10" }
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/powerapp-assetmanagement-5.png){: width="300" padding="10" }
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/powerapp-assetmanagement-6.png){: width="300" padding="10" }
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/powerapp-assetmanagement-7.png){: width="300" padding="10" }
-![AssetMe PowerApp]({{site.baseurl}}/assets/img/powerapp-assetmanagement-8.png){: width="300" padding="10" }
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/powerapp-assetmanagement-1.png){: width="290" padding="10" }
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/powerapp-assetmanagement-2.png){: width="290" padding="10" }
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/powerapp-assetmanagement-3.png){: width="290" padding="10" }
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/powerapp-assetmanagement-4.png){: width="290" padding="10" }
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/powerapp-assetmanagement-5.png){: width="290" padding="10" }
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/powerapp-assetmanagement-6.png){: width="290" padding="10" }
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/powerapp-assetmanagement-7.png){: width="290" padding="10" }
+![AssetMe PowerApp]({{site.baseurl}}/assets/img/powerapp-assetmanagement-8.png){: width="290" padding="10" }
 
