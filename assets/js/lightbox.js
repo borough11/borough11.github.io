@@ -62,9 +62,11 @@ function apply_lightbox_to_img_tag() {
     } else if (is_imagelink(url)) {
       wrapper.classList.add("lightbox-image");
       var href = wrapper.getAttribute("href");
+      var alt = wrapper.getAttribute("alt");
       var filename = href.split("/").pop();
       var name = filename.split(".")[0];
       wrapper.setAttribute("title", name);
+      wrapper.setAttribute("alt", alt);
     } else {
       return;
     }
