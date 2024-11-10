@@ -1,9 +1,11 @@
 function is_youtubelink(url) {
     var p = /^(?:https?:\/\/)?(?:www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$/;
+    console.log("found as youtube link for: " + url);
     return (url.match(p)) ? RegExp.$1 : false;
 }
 function is_imagelink(url) {
     var p = /([a-z\-_0-9\/\:\.]*\.(jpg|jpeg|png|gif))/i;
+    console.log("found as image for: " + url);
     return (url.match(p)) ? true : false;
 }
 function is_vimeolink(url,el) {
