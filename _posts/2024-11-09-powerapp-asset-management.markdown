@@ -29,11 +29,11 @@ Words 4
 
 ## Screenshots
 
-[![asset mamangement image]({{site.baseurl}}/assets/img/powerapp-assetmanagement-1.png){: width="305" padding="10" }]({{site.baseurl}}/assets/img/powerapp-assetmanagement-1.png){: caption="bears" }
-[![asset mamangement image]({{site.baseurl}}/assets/img/powerapp-assetmanagement-2.png){: width="305" padding="10" }]({{site.baseurl}}/assets/img/powerapp-assetmanagement-2.png)
-[![asset mamangement image]({{site.baseurl}}/assets/img/powerapp-assetmanagement-3.png){: width="305" padding="10" }]({{site.baseurl}}/assets/img/powerapp-assetmanagement-3.png)
-[![asset mamangement image]({{site.baseurl}}/assets/img/powerapp-assetmanagement-4.png){: width="305" padding="10" }]({{site.baseurl}}/assets/img/powerapp-assetmanagement-4.png)
-[![asset mamangement image]({{site.baseurl}}/assets/img/powerapp-assetmanagement-5.png){: width="305" padding="10" }]({{site.baseurl}}/assets/img/powerapp-assetmanagement-5.png)
-[![asset mamangement image]({{site.baseurl}}/assets/img/powerapp-assetmanagement-6.png){: width="305" padding="10" }]({{site.baseurl}}/assets/img/powerapp-assetmanagement-6.png)
-[![asset mamangement image]({{site.baseurl}}/assets/img/powerapp-assetmanagement-7.png){: width="305" padding="10" }]({{site.baseurl}}/assets/img/powerapp-assetmanagement-7.png)
-[![asset mamangement image]({{site.baseurl}}/assets/img/powerapp-assetmanagement-8.png){: width="305" padding="10" }]({{site.baseurl}}/assets/img/powerapp-assetmanagement-8.png)
+[![asset mamangement image]({{site.baseurl}}/assets/img/powerapp-assetmanagement-1.png){: width="305" padding="10" }]({{site.baseurl}}/assets/img/powerapp-assetmanagement-1.png){: caption="Searchable and filterable bookings list" }
+[![asset mamangement image]({{site.baseurl}}/assets/img/powerapp-assetmanagement-2.png){: width="305" padding="10" }]({{site.baseurl}}/assets/img/powerapp-assetmanagement-2.png){: caption="Dashboard page with graphs, stats and quick links to current/upcoming bookings" }
+[![asset mamangement image]({{site.baseurl}}/assets/img/powerapp-assetmanagement-3.png){: width="305" padding="10" }]({{site.baseurl}}/assets/img/powerapp-assetmanagement-3.png){: caption="Searchable and filterable assets list based on status, categories, kits and locations" }
+[![asset mamangement image]({{site.baseurl}}/assets/img/powerapp-assetmanagement-4.png){: width="305" padding="10" }]({{site.baseurl}}/assets/img/powerapp-assetmanagement-4.png){: caption="Assets can be grouped together into Kits to aid booking of multiple items that are always booked together" }
+[![asset mamangement image]({{site.baseurl}}/assets/img/powerapp-assetmanagement-5.png){: width="305" padding="10" }]({{site.baseurl}}/assets/img/powerapp-assetmanagement-5.png){: caption="Bookings can be edited - time period adjusted, custodian changed, assets updated (with checks to ensure updates don't clash with existing bookings) etc" }
+[![asset mamangement image]({{site.baseurl}}/assets/img/powerapp-assetmanagement-6.png){: width="305" padding="10" }]({{site.baseurl}}/assets/img/powerapp-assetmanagement-6.png){: caption="Bookings can be filtered per Custodian" }
+[![asset mamangement image]({{site.baseurl}}/assets/img/powerapp-assetmanagement-7.png){: width="305" padding="10" }]({{site.baseurl}}/assets/img/powerapp-assetmanagement-7.png){: caption="When making a Booking, only assets that are currently available and not already booked (based on the time period set in step 1 of creating a booking) can be selected)" }
+[![asset mamangement image]({{site.baseurl}}/assets/img/powerapp-assetmanagement-8.png){: width="305" padding="10" }]({{site.baseurl}}/assets/img/powerapp-assetmanagement-8.png){: caption="Details and Notes can be added to Assets to help with auditing and management." }
