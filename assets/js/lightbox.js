@@ -150,7 +150,7 @@ document.addEventListener("DOMContentLoaded", function() {
     elements.forEach(element => {
         element.addEventListener("click", function(event) {
             event.preventDefault();
-            document.getElementById('lightbox').innerHTML = '<a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="img" style="background: url(\''+this.getAttribute('href')+'\') center center / contain no-repeat;" title="'+this.getAttribute('title')+'" ><img src="'+this.getAttribute('href')+'" alt="'+this.getAttribute('title')+'" /><div style="display: inline-block; margin-top:45px; max-width: fit-content; margin-left: auto; margin-right: auto;">' + this.getAttribute("title") + '</div></div><span>'+this.getAttribute('title')+'</span>';
+            document.getElementById('lightbox').innerHTML = '<a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="img" style="background: url(\''+this.getAttribute('href')+'\') center center / contain no-repeat;" title="'+this.getAttribute('title')+'" ><img src="'+this.getAttribute('href')+'" alt="'+this.getAttribute('title')+'" /><div style="line-height: 1.2; text-align: center; margin-top:45px; max-width: fit-content; margin-left: auto; margin-right: auto;">' + this.getAttribute("title") + '</div></div><span>'+this.getAttribute('title')+'</span>';
             document.getElementById('lightbox').style.display = 'block';
 
             setGallery(this);
