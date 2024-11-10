@@ -12,7 +12,7 @@ Contact Tracing for Covid19
 ## Heading
 Words
 
-[![youtoob alt text]({{site.baseurl}}/assets/img/powerapp-conacttracing-thumb.png)](https://youtu.be/qT7q4Y2pi3I)
+[![YouTube video](https://img.youtube.com/vi/qT7q4Y2pi3I/0.jpg)](https://www.youtube.com/watch?v=qT7q4Y2pi3I)
 
 Words2
 
