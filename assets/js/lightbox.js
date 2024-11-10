@@ -117,8 +117,10 @@ function apply_lightbox() {
         this.getAttribute("href") +
         '" alt="' +
         this.getAttribute("title") +
-        '" /></div><span>' +
-        this.getAttribute("title") +
+        '" />' +
+        '<div style="margin-top:30px; max-width: fit-content; margin-left: auto; margin-right: auto;">' + this.getAttribute("title") + '</div>' +
+        '</div><span>' +
+        + this.getAttribute("title") +
         "</span>";
       document.getElementById("lightbox").style.display = "block";
 
