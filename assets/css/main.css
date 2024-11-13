@@ -1399,7 +1399,7 @@ a.newer-posts:hover {
   #topheading {
     display: none;
   }
-  
+
 }
 
 /* Small Devices, Tablets */
@@ -1528,10 +1528,11 @@ header {
 
 #topheading span{
   position: absolute;
+  left: 60%;
   font-family: 'Poppins',sans-serif;
   text-transform: uppercase;
   font-size: 60px;
-  letter-spacing: 25px;
+  letter-spacing: 15px;
   color: #08b2f0;
   cursor: crosshair;
 }
