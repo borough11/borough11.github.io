@@ -985,7 +985,7 @@ table tfoot td {
 }
 
 /* EXTRA FOR ME */
-.author-name :first-letter {
+.author-name::first-letter {
   color: #08b2f0;
 }
 
