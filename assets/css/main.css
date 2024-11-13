@@ -1394,6 +1394,12 @@ a.newer-posts:hover {
   .post .post-content .post-title a {
     font-size: 21px;
   }
+
+  /* EXTRA FOR ME */
+  #topheading {
+    display: none;
+  }
+  
 }
 
 /* Small Devices, Tablets */
@@ -1456,6 +1462,12 @@ a.newer-posts:hover {
   .contact-title, .copyright {
     display: none;
   }
+
+  /* EXTRA FOR ME */
+  #topheading {
+    display: none;
+  }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -1485,6 +1497,12 @@ a.newer-posts:hover {
   .post .post-content .post-title a {
     font-size: 21px;
   }
+
+  /* EXTRA FOR ME */
+  #topheading {
+    display: none;
+  }
+
 }
 
 
