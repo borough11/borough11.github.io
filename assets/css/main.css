@@ -1491,9 +1491,14 @@ a.newer-posts:hover {
 /* EXTRA FOR ME */
 .main-headingSteve{
   margin: auto;
+  text-align: right;
 }
 
+header {
+  width: 100%
+}
 
 .main-headingSteve h1{
   font-size: 50px;
+  text-align: right;
 }
