@@ -983,6 +983,13 @@ table tfoot td {
 
 }
 
+/* EXTRA FOR ME */
+.author-name ::first-letter {
+  color: #08b2f0;
+}
+
+
+
 /*
 .about .author-name::after {
   content: "";
