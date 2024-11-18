@@ -1538,11 +1538,11 @@ header {
 
 #topheading span{
   position: absolute;
-  left: 60%;
+  left: 47%;
   font-family: 'Poppins',sans-serif;
   text-transform: uppercase;
   font-size: 60px;
-  letter-spacing: 10px;
+  letter-spacing: 8px;
   color: #08b2f0;
   cursor: crosshair;
 }
