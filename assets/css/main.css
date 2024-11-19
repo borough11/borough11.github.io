@@ -1587,7 +1587,14 @@ header {
 
 
 
-
+#authorname span{
+  
+  left: 47%;
+  
+  letter-spacing: 8px;
+  color: #08b2f0;
+  cursor: crosshair;
+}
 #authorname span:before{
   content: '_steveGeall.';
   position: absolute;
