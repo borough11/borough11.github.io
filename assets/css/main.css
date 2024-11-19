@@ -971,7 +971,7 @@ table tfoot td {
 
 .about .author-name {
   font-family: 'Poppins',sans-serif;
-  margin: 0 0 10px;
+  margin: 0 30px 10px;
   position: relative;
   /*padding-bottom: 15px;*/
   font-size: 24px;
@@ -986,7 +986,7 @@ table tfoot td {
 
 /* EXTRA FOR ME */
 .author-name::first-letter {
-  color: #08b2f0;
+  color: #ffffff;
 }
 
 
@@ -1605,9 +1605,9 @@ header {
    repeating-linear-gradient(
       135deg,
       transparent 0,
-      transparent 2px,
-      #ed0a8b 2px,
-      #ed0a8b 4px
+      transparent 1px,
+      #ed0a8b 1px,
+      #ed0a8b 2px
   );
   -webkit-background-clip: text;
       background-clip: text;
