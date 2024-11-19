@@ -8,8 +8,9 @@ layout: default
       <div class="cover-author-image">
         <a href="{{site.baseurl}}/"><img class="no-lightbox" src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
       </div>
-      <div class="author-name">{{site.author}}<font color="#e72698">.</font></div>
-      <p>{{site.about-author}}</p>
+
+      <div id="authorname" class="author-name">{{site.author}}<font color="#e72698">.</font></div>
+      <span data-text="{{site.about-author}}"><p>{{site.about-author}}</p></spanspan>
     </div>
   </header> <!-- End Header -->
   <footer>
