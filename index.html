@@ -10,8 +10,12 @@
 
 <style>
 @font-face {
-font-family: Thunder;
+font-family: Thunder-BoldLC;
 src: url(fonts/630e8e6e5faf1ad7d5a833c4_Thunder-BoldLC.woff2);
+}
+@font-face {
+font-family: Thunder-SemiBoldLC;
+src: url(fonts/630e8e6e4ce2e4eab934b3d5_Thunder-SemiBoldLC.woff2);
 }
 @font-face {
 font-family: General Sans;
@@ -22,7 +26,6 @@ body {
 margin: 0;
 align-items: center;
 min-height: 100vh;
-min-width: 476px;
 background-color: #BECCCD;
 }
 
@@ -39,18 +42,18 @@ margin-left: 40px;
 margin-right: 40px;
 }
 
-@media (max-width: 768px) {
-.row {
-margin-left: 10px;
-margin-right: 10px;
-}
-.middle-item:hover + .between-item {
-letter-spacing: 1.0px;
-}
-.top-item {
-font-weight: 400;
-color:#ed0a8b
-}
+@media (max-width: 480px) {
+	.row {
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+	.middle-item:hover + .between-item {
+	letter-spacing: 1.0px;
+	}
+	.top-item {
+	font-weight: 400;
+	font-family: Thunder-SemiBoldLC !important;
+	}
 }
 
 .top {
@@ -70,7 +73,7 @@ align-items: center;
 
 .top-item {
 text-transform: uppercase;
-font-family: Thunder, sans-serif;
+font-family: Thunder-BoldLC, sans-serif;
 font-size: 2.5rem;
 font-weight: 800;
 line-height: 1;
@@ -83,7 +86,7 @@ max-width: 16ch;
 font-size: 6rem;
 line-height: 1.2;
 text-align: center;
-font-family: Thunder, sans-serif;
+font-family: Thunder-BoldLC, sans-serif;
 text-transform: uppercase;
 position: absolute;
 text-transform: uppercase;
@@ -133,7 +136,7 @@ letter-spacing: 0.4px;
 transition: 0.2s; 
 margin-bottom: 20px;
 color: #111;
-opacity: 1;
+opacity: 0.3;
 }
 
 
