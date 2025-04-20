@@ -15,7 +15,7 @@ src: url(fonts/630e8e6e5faf1ad7d5a833c4_Thunder-BoldLC.woff2);
 }
 @font-face {
 font-family: General Sans;
-src: url(fonts/6318ff85598564ab56a05c6d_GeneralSans-Medium.woff2);
+src: url(fonts/6318ff85ae036c60dca38a9e_GeneralSans-Semibold.woff2);
 }
 
 body {
@@ -66,6 +66,7 @@ text-decoration: none;
 .middle-item {
 max-width: 16ch;
 font-size: 6rem;
+line-height: 1.2;
 text-align: center;
 font-family: Thunder, sans-serif;
 text-transform: uppercase;
@@ -73,6 +74,7 @@ position: absolute;
 text-transform: uppercase;
 color: rgba(255,255,255, 0.8);
 cursor: crosshair;
+letter-spacing: 2px;
 }
 .middle-item:before{
 content: attr(data-text);
@@ -94,9 +96,9 @@ z-index: -1;
 -webkit-text-stroke: 0px #ed0a8b;
 transition: 0.5s;
 }
-.middle-item:hover:before{
-top: 0.1em;
-left: 0.1em;
+.middle-item:hover:before {
+top: 0.08em;
+left: 0.08em; 
 }
 .middle-item:after{
 content: attr(data-text);
@@ -107,14 +109,40 @@ color: #111;
 -webkit-text-stroke: 0px #111; 
 transition: 0.5s; 
 }
-.middle-item:hover:after{
+.middle-item:hover:after {
 top: -0.03em;
 left: -0.06em;
 }
+.middle-item:hover + .between-item {
+letter-spacing: 2px;
+transition: 0.5s; 
+margin-bottom: 20px;
+color: #111;
+opacity: 1;
+}
 
-.bottom-item {
+
+
+.between-item {
 max-width: 50ch;
 font-size: 1.5rem;
+margin-bottom: 25px;
+font-weight: 500;
+line-height: 1.3;
+font-family: General Sans;
+cursor: crosshair;
+transition: 0.5s; 
+opacity: 0.3;
+/* color:#768283; */
+}
+
+
+
+
+
+.bottom-item {
+max-width: 20ch;
+font-size: 0.6rem;
 font-weight: 500;
 line-height: 1.3;
 font-family: General Sans;
@@ -136,10 +164,13 @@ color: #111;
 				</a>
 			</div>
 			<div class="row middle">
+				
 				<div class="middle-item" data-text="SOLUTIONS ARCHITECT.">SOLUTIONS ARCHITECT.</div>
+				<div class="between-item">developer. designer. &lt;coder&gt;</div>
+
 			</div>
 			<div class="row bottom">
-				<p class="bottom-item color-dark">developer. designer. &lt;coder&gt;</p>
+				<p class="bottom-item color-dark">borough11.co.nz</p>
 			</div>
 		</div>	
 	</body>
