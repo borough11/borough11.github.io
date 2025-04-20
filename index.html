@@ -155,23 +155,23 @@ opacity: 0.3;
 }
 
 
-@media(hover: hover) and (pointer: fine) {
-	.middle-item:hover:after {
+
+	.middle-item:active:after {
 top: -0.03em;
 left: -0.06em;
 }
-.middle-item:hover + .between-item {
+.middle-item:active + .between-item {
 letter-spacing: 0.4px;
 transition: 0.2s; 
 margin-bottom: 20px;
 color: #111;
 opacity: 0.3;
 }
-.middle-item:hover:before {
+.middle-item:active:before {
 top: 0.08em;
 left: 0.08em; 
 }
-}
+
 
 .bottom-item {
 max-width: 20ch;
