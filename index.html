@@ -1,137 +1,146 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><title>Stephen Geall - Solutions Architect</title>
-<meta content="I help" name="description">
-<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta charset="utf-8">
+<title>Stephen Geall - Solutions Architect</title>
+<meta content="Solutions Architect" name="description">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="images/631b3563135f70ac27f7069d_favicon.svg" rel="shortcut icon" type="image/x-icon">
 <link href="images/631b356de6ebdbc2996ac0bf_webclip.svg" rel="apple-touch-icon">
 
 <style>
 @font-face {
-        font-family: Thunder;
-        src: url(fonts/630e8e6e5faf1ad7d5a833c4_Thunder-BoldLC.woff2);
+font-family: Thunder;
+src: url(fonts/630e8e6e5faf1ad7d5a833c4_Thunder-BoldLC.woff2);
 }
 @font-face {
-        font-family: General Sans;
-        src: url(fonts/6318ff85598564ab56a05c6d_GeneralSans-Medium.woff2);
+font-family: General Sans;
+src: url(fonts/6318ff85598564ab56a05c6d_GeneralSans-Medium.woff2);
 }
 
 body {
-	margin: 0;
-	background-color: #BECCCD;
-	background-image: url("main.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
+margin: 0;
+align-items: center;
+min-height: 100vh;
+background-color: #BECCCD;
 }
 
-.main {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+.container {
+display: flex;
+flex-direction: column;
+height: 100vh;
 }
 
-
-.header-inner {
-	justify-content: space-between;
-	padding: 1rem;
-	position: fixed;
-	top: -20px;
-	left: 120px;
-	width: 280px;
-	
+.row {
+flex: 1;
+display: flex;
+margin-left: 40px;
+margin-right: 40px;
 }
 
-.header-top {
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
-  
+.top {
+justify-content: flex-start; 
+align-items: center;
 }
 
-.header-logo {
-  color: #111;
-  text-transform: uppercase;
-  font-family: Thunder, sans-serif;
-  font-size: 2.5rem;
-  font-weight: 800;
-  line-height: 1;
-  text-decoration: none; 
+.middle {
+justify-content: center;
+align-items: center;
 }
 
-.header-bottom {
-  position: relative;
-  
+.bottom {
+justify-content: flex-end; 
+align-items: center;
 }
 
-.header-intro {
-  max-width: 50ch;
-  font-size: 2rem;
-  font-weight: 500;
-  line-height: 1.3;
-  font-family: General Sans;
-  
-}
-
-.header-intro.color-dark {
-  margin-left: auto;
-}
-
-.header-footer {
-  justify-content: space-between;
-  display: flex;
-  position: relative;
+.top-item {
+text-transform: uppercase;
+font-family: Thunder, sans-serif;
+font-size: 2.5rem;
+font-weight: 800;
+line-height: 1;
+text-decoration: none; 
 }
 
 
-.header-headline {
-  max-width: 16ch;
-  font-size: 8rem;
-  font-family: Thunder, sans-serif;
-  text-transform: uppercase;
+.middle-item {
+max-width: 16ch;
+font-size: 6rem;
+text-align: center;
+font-family: Thunder, sans-serif;
+text-transform: uppercase;
+position: absolute;
+text-transform: uppercase;
+color: rgba(255,255,255, 0.8);
+cursor: crosshair;
+}
+.middle-item:before{
+content: attr(data-text);
+position: absolute;
+top: 0;
+left: 0;
+color: transparent;
+background-image:
+repeating-linear-gradient(
+135deg,
+transparent 0,
+transparent 2px,
+#ed0a8b 2px,
+#ed0a8b 4px
+);
+-webkit-background-clip: text;
+background-clip: text;
+z-index: -1;
+-webkit-text-stroke: 0px #ed0a8b;
+transition: 0.5s;
+}
+.middle-item:hover:before{
+top: 0.1em;
+left: 0.1em;
+}
+.middle-item:after{
+content: attr(data-text);
+position: absolute;
+top: 0;
+left: 0;
+color: #111;
+-webkit-text-stroke: 0px #111; 
+transition: 0.5s; 
+}
+.middle-item:hover:after{
+top: -0.03em;
+left: -0.06em;
 }
 
-
+.bottom-item {
+max-width: 50ch;
+font-size: 1.5rem;
+font-weight: 500;
+line-height: 1.3;
+font-family: General Sans;
+cursor: crosshair;
+}
 
 .color-dark {
-  color: #111;
+color: #111;
 }
-
-
-  
-.header-intro.color-dark {
-	font-size: 1rem;
-}
-
-.header-intro.color-dark.reveal {
-	margin-bottom: 0;
-}
-
-
-.header-headline.color-dark {
-	font-size: 4rem;
-}
-  
-
   
 </style>
 
 </head>
-
-<body>
-	<div class="main">
-		<div class="header-inner">
-			<div class="header-top">
-				<a href="mailto:stevegeall@gmail.com" aria-current="page" class="header-logo w-inline-block ">
-				<div>Steve Geall.</div>
+	<body>
+		<div class="container">
+			<div class="row top">
+				<a href="mailto:stevegeall@gmail.com" class="top-item color-dark">
+					<div>Steve Geall.</div>
 				</a>
 			</div>
-			<div class="header-bottom">
-				<h1 class="header-headline color-dark reveal">SOLUTIONS ARCHITECT.</h1>
-				<div class="header-intro color-dark reveal">developer. designer. &lt;coder&gt;</div>
+			<div class="row middle">
+				<div class="middle-item color-dark" data-text="SOLUTIONS ARCHITECT.">SOLUTIONS ARCHITECT.</div>
 			</div>
-		</div>
-	</div>
-</body>
-
+			<div class="row bottom">
+				<p class="bottom-item color-dark">developer. designer. &lt;coder&gt;</p>
+			</div>
+		</div>	
+	</body>
+</html>
