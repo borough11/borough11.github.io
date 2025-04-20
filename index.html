@@ -22,6 +22,7 @@ body {
 margin: 0;
 align-items: center;
 min-height: 100vh;
+min-width: 476px;
 background-color: #BECCCD;
 }
 
@@ -48,6 +49,7 @@ letter-spacing: 1.0px;
 }
 .top-item {
 font-weight: 400;
+color:#ed0a8b
 }
 }
 
@@ -107,7 +109,7 @@ transparent 2px,
 background-clip: text;
 z-index: -1;
 -webkit-text-stroke: 0px #ed0a8b;
-transition: 0.5s;
+transition: 0.2s;
 }
 .middle-item:hover:before {
 top: 0.08em;
@@ -120,15 +122,15 @@ top: 0;
 left: 0;
 color: #111;
 -webkit-text-stroke: 0px #111; 
-transition: 0.5s; 
+transition: 0.2s; 
 }
 .middle-item:hover:after {
 top: -0.03em;
 left: -0.06em;
 }
 .middle-item:hover + .between-item {
-letter-spacing: 2px;
-transition: 0.5s; 
+letter-spacing: 0.4px;
+transition: 0.2s; 
 margin-bottom: 20px;
 color: #111;
 opacity: 1;
