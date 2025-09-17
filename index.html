@@ -39,15 +39,24 @@ flex: 1;
 display: flex;
 margin-left: 40px;
 margin-right: 40px;
-
 }
 .top {
 justify-content: flex-start; 
 align-items: center;
 }
+@keyframes fadeInSlow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .middle {
 justify-content: center;
 align-items: center;
+opacity: 0;
+animation: fadeInSlow 3s ease-in forwards;
 }
 .bottom {
 justify-content: flex-end; 
@@ -76,6 +85,27 @@ transform: scale(1.1) translateY(1px);
 width: 100px; 
 height: 100px; 
 transition: 0.3s ease-out;
+}
+
+@keyframes bounceUp {
+  0% {
+    transform: translateY(400px);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(-10px);
+    opacity: 1;
+  }
+  80% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.row.top {
+  animation: bounceUp 0.8s ease-out;
 }
 
 .top-item {
@@ -182,16 +212,54 @@ font-family: cursive, serif;
 font-family: 'Courier New', Courier, monospace
 }
 
+.bottom {
+justify-content: flex-end;
+align-items: center;
+gap: 20px;
+}
+
+@keyframes bounceDown {
+  0% {
+    transform: translateY(-500px);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bottom-stack {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+margin-right: 6px;
+height: 100%;
+gap: 6px;
+animation: bounceDown 0.8s ease-out;
+}
+
 .bottom-item {
 max-width: 20ch;
-font-size: 0.6rem;
+font-size: 0.8rem;
 font-weight: 500;
 line-height: 1.3;
 font-family: General Sans, sans-serif;
-cursor: crosshair;
+cursor: hand;
 text-decoration: none;
 }
-
+a:hover.bottom-item{
+  transform: scale(1.05);
+  transition: transform 0.1s ease-in-out;
+  display: inline-block; /* ensures transform works properly */
+}
 .color-dark {
 color: #111;
 }
@@ -232,12 +300,12 @@ font-family: Thunder-SemiBoldLC !important;
 				</div>
 			</div>
 			<div class="row bottom">
-				<img width="16" src="apple-touch-icon-72x72.png"></img><p class="bottom-item color-dark">
-				borough11.co.nz<br>
-				<a href="https://www.borough11.co.nz" target="_blank">b11</a></p><br>
-				<a href="https://www.github.com/borough11/" target="_blank">github.com</a></p><br>
-				<a href="https://www.linkedin.com/in/steve-geall-b0044657/" target="_blank">linkedin.com</a>
-				</p>
+				<div class="bottom-stack">
+					<a class="bottom-item color-dark" href="https://www.borough11.co.nz" target="_self">borough11.co.nz</a>
+					<a class="bottom-item color-dark" href="https://www.github.com/borough11/" target="_blank">github.com</a>
+					<a class="bottom-item color-dark" href="https://www.linkedin.com/in/steve-geall-b0044657/" target="_blank">linkedin.com</a>
+				</div>
+				
 			</div>
 		</div>	
 	</body>
